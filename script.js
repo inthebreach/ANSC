@@ -5,12 +5,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Define your progress stages and their corresponding percentages
   var progressStages = [
-    { status: "Ordered", percentage: 20 },
-    { status: "Preparing", percentage: 40 },
-    { status: "Baking", percentage: 60 },
-    { status: "Out for Delivery", percentage: 80 },
-    { status: "Delivered", percentage: 100 },
-  ];
+    { status: "Discovery/Kick-Off Meeting", percentage: 20 },
+  { status: "Content Review", percentage: 40 },
+  { status: "Content Revise", percentage: 60 },
+  { status: "Tech Review", percentage: 80 },
+  { status: "Launched", percentage: 100 },
+];
 
   // Set the current progress stage (0-4)
   var currentStage = 2;
