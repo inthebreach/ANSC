@@ -12,7 +12,7 @@ const progressStages = [
 ];
 
 // Set the current progress stage (0-4)
-const currentStage = 1;
+const currentStage = 0;
 
 // Update the progress bar and status text
 progressElement.style.width = progressStages[currentStage].percentage + "%";
